@@ -1,0 +1,17 @@
+
+.ui-datepicker {
+   background: #333;
+   border: 1px solid #555;
+   color: #EEE;
+ }
+ .ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+      color: red;
+      
+      font-size: 16px;
+      font-weight: bold;
+}
+
+
+#Datashowintable{
+    height: 300px;
+}

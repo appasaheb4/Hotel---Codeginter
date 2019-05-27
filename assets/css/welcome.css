@@ -1,0 +1,33 @@
+#sliderdiv{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/image1.jpg);
+  background-size:cover;
+}
+
+#sliderdiv .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.50);
+}
+
+#threeblocks.col-md-4{
+  text-align:center;
+}
+
+#allthreeion.container{
+}
+
+div#allthreeion.container{
+}
+
+img#icon{
+  height:50px;
+  width:100px;
+}
+
+#carouser img{
+  width:100%;
+  height:400px;
+}
+

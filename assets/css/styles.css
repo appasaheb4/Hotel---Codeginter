@@ -1,0 +1,69 @@
+div#savebtngru.btn-group{
+  align-self:center;
+}
+
+div#btngoup.col-md-offset-1.col-md-3{
+  text-align:center;
+}
+
+#sliderdiv{
+}
+
+#fotterbootm.container-fluid{
+  background-color:#000;
+}
+
+#col-md-4{
+}
+
+#fotterbootm .col-md-4{
+  background-color:#000;
+}
+
+.img-hover .img-hover{
+}
+
+.img-hover img{
+  -webkit-transition:all .3s ease;
+}
+
+
+
+
+
+#logandregmain{
+  background-color:#000;
+  color:#fff;
+  box-shadow:10px 10px 5px #888888;
+}
+
+#maintab{
+  color:#fff;
+}
+
+#regiationbutton{
+  width:100%;
+  background-color:#1AB08A;
+  color:#fff;
+  text-decoration:none;
+}
+
+.tran{
+  background-color:transparent;
+  color:#fff;
+}
+
+ul#tablogandreg.nav.nav-tabs{
+  margin-left:30%;
+  border:none;
+  color:#fff;
+}
+
+.btnlink{
+  width:100%;
+  background-color:#1AB08A;
+  color:#fff;
+  text-decoration:none;
+}
+
+

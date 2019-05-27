@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="11d7fc86-f2cd-4a58-82e8-fb7a332e9a64">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="New Dataset 1" uuid="acb76a3a-e1d7-431a-ae40-b63050cc0aa1">
+		<queryString language="SQL">
+			<![CDATA[select * from  tbl_addExtraMenu;]]>
+		</queryString>
+		<field name="id" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tableBookingId" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="incrementId" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="date" class="java.sql.Date">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="time" class="java.sql.Time">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tableNo" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tableCode" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="menuName" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="subMenuName" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="qty" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="vendorId" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString>
+		<![CDATA[select * from tbl_addExtraMenu]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="99" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="99" uuid="ab31ccc3-0b2a-4473-ae7b-2bcd43945d85"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="20" uuid="7471b687-9ee1-49bf-9f81-dd742154c3c0"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<text><![CDATA[... OM SAI RAM ....]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="555" height="34" uuid="77707f6c-f261-4561-b822-de3ea3deb9cf"/>
+				<textElement textAlignment="Center">
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[Hotel Silver Oak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="54" width="555" height="15" uuid="e71f2ba9-9831-476e-8482-0dd3e32d98d3"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Musalwadi,Near Manori Road,Rahuri]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="69" width="555" height="15" uuid="2fc9810f-d208-4931-a464-e2fa7273eb0f"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Ahmednagar,Pincode-413716 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="84" width="555" height="15" uuid="da66aa1b-0fc8-4077-8bec-dd4bf6e667c9"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[MOB NO.  +91 9822029331 ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="20" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy h.mm a">
+				<reportElement x="455" y="0" width="100" height="20" uuid="7384d29d-e90c-4c5a-a73f-1fd513432ba6"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="41" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
